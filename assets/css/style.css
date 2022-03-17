@@ -28,9 +28,27 @@
 /* #endregion */
 
 /* #region COMMON */
+
+img{
+    max-width: 100%;
+}
+
 /* #endregion */
 
 /* #region HEADER */
+
+.banner{
+    background-color: var(--bg_banner_sony);
+}
+
+/* banner */
+.
+
+
+
+
+
+
 /* #endregion */
 
 /* #region MAIN */

@@ -33,6 +33,14 @@ img{
     max-width: 100%;
 }
 
+
+/* #endregion */
+
+/* #region Spaces */
+
+
+
+
 /* #endregion */
 
 /* #region HEADER */
@@ -41,15 +49,12 @@ img{
     background-color: var(--bg_banner_sony);
 }
 
-/* banner */
-.
+/* navbar */
 
-
-
-
-
-
-/* #endregion */
+.navbar-light .navbar-nav .nav-link {
+    color: var(--txt_menu);
+    font-size: 1.25rem;
+}
 
 /* #region MAIN */
 /* #endregion */

@@ -1,0 +1,40 @@
+/*#region VARIABLE */
+
+*{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --bg_banner_sony: #000000;
+    --bg_primary: #ffffff;
+    --bg_secondary: #1F1F1F;
+    --bg_tertiary: #BEBCBB;
+    --bg_quaternary:#161C3B;
+    --bg_quinary:#00439C;
+    
+    --txt_menu:#131313;
+    --txt_primary:#1F1F1F;
+    --txt_secondary:#ffffff;
+    --txt_tertiary:#727272;
+
+    --buttons_primary: #363636;
+    --buttons_secondary: #CD3D0F;
+    --buttons_tertiry: #2D64E6;
+    --buttons_quaternary: #D9DADC;
+    --buttons_quinary:#F5F5F5;
+
+}
+
+/* #endregion */
+
+/* #region COMMON */
+/* #endregion */
+
+/* #region HEADER */
+/* #endregion */
+
+/* #region MAIN */
+/* #endregion */
+
+/* #region FOOTER */
+/* #endregion */

@@ -67,7 +67,29 @@
 
 
 
+.debug .explore,
+.debug .discount{
 
+    height:500px;
+
+}
+
+.debug .service{
+    height:500px;
+    background-color: pink;
+
+}
+
+
+.debug .social_media{
+    height:500px;
+}
+
+
+.debug footer{
+    height: 500px;
+    background-color: var(--bg_quinary);
+}
 /* #endregion */
 
 /* #endregion */
@@ -191,6 +213,10 @@ ul .circle {
 .game_text{
     font-size: 20px;
 }
+
+/* explore */
+
+
 
 
 

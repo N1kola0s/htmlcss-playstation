@@ -149,7 +149,7 @@ img{
     height: 10px;
 }
 
-.chevron-down .show::after{
+.chevron-down.show::after{
     display: inline-block;
     content: "";
     background-image: url(../img/chevron-down-solid-hover.svg);

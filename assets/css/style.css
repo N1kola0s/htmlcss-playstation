@@ -19,13 +19,49 @@
 
     --buttons_primary: #363636;
     --buttons_secondary: #CD3D0F;
-    --buttons_tertiry: #2D64E6;
+    --buttons_tertiary: #2D64E6;
     --buttons_quaternary: #D9DADC;
     --buttons_quinary:#F5F5F5;
 
 }
 
-/* #egion debug */
+/* #region debug */
+.debug .hero{
+    background-color: coral;
+    height:500px;
+}
+
+
+.debug .possibility{
+    height: 500px;
+}
+
+
+
+
+.debug [class^="card"]{
+    background-color: aquamarine;
+    height:124px;
+    min-width: 120px;
+    border-radius: 25px;
+    margin:10px 0;
+   
+}
+
+.debug .hardware{
+    height:500px;
+    background-color: coral;
+}
+
+.debug .hardware [class^="col"]{
+    height:100px;
+    background-color: aquamarine;
+    margin:20px 0;
+    border: 1px solid black;
+
+}
+
+
 /* #endregion */
 
 /* #endregion */
@@ -36,7 +72,43 @@ img{
     max-width: 100%;
 }
 
+.btn_primary{
+    background-color: var(--buttons_primary);
+    color:var(--txt_secondary);
+}
 
+.btn_secondary{
+    background-color: var(--buttons_secondary);
+    color:var(--txt_secondary);
+}  
+
+.btn_ter{
+    background-color: var(--buttons_tertiary);
+    color:var(--txt_secondary);
+}
+
+.btn_quater{
+    background-color: var(--buttons_quaternary);
+    color:var(--buttons_tertiary);
+}
+
+.btn_quinary{
+    background-color: var(--buttons_quinary);
+    color:var(--txt_primary);
+}
+
+.mb_6 {
+    margin-bottom:3.875rem;
+}
+
+
+.mt_8{
+    margin-top: 8rem;
+}
+
+.mt_9{
+    margin-top:9.125rem;
+}
 
 /* #endregion */
 
@@ -81,6 +153,22 @@ img{
 }
 
 /* #region MAIN */
+
+/* hero */
+.hero_content{
+    width:35%;
+    line-height: 1.75rem;
+    
+}
+
+.hero_text{
+    font-size: 20px;
+}
+
+
+
+
+
 /* #endregion */
 
 /* #region FOOTER */

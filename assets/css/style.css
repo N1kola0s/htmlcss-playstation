@@ -147,6 +147,7 @@ img{
     background-image: url(../img/chevron-down-solid.svg);
     width: 10px;
     height: 10px;
+    
 }
 
 .chevron-down.show::after{
@@ -156,6 +157,7 @@ img{
     transform: rotate(180deg);
     width: 10px;
     height: 10px;
+    
 }
 
 .chevron-down:hover::after{
@@ -164,18 +166,18 @@ img{
     background-image: url(../img/chevron-down-solid-hover.svg);
     width: 10px;
     height: 10px;
+    
 }
 
-.circle::before {
-    /* using style CSS custom property */
-    font: var(--fa-font-solid);
-    content: "\f111";
-    color:#0070d1;
-    padding-right:5px;
-    height: 5px;
-    width: 5px;
+ul .circle {
+    
+    border-radius: 50%;
+    background-color: #0070d1;
+    width: 6px;
+    height: 6px;
 }
-  
+
+
 /* #region MAIN */
 
 /* hero */

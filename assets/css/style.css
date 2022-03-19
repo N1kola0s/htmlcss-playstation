@@ -136,12 +136,12 @@ section .btn{
     color:var(--txt_secondary);
 }  
 
-.btn_ter{
+.btn_tertiary{
     background-color: var(--buttons_tertiary);
     color:var(--txt_secondary);
 }
 
-.btn_quater{
+.btn_quaternary{
     background-color: var(--buttons_quaternary);
     color:var(--buttons_tertiary);
 }
@@ -266,13 +266,17 @@ ul .circle {
 
 }
 
-/* possibility*/
+/* hardware*/
 
 
+.device_text.subtitle{
+    font-size:18px;
+}
 
+.selector .card img{
+    aspect-ratio:1;
 
-
-
+}
 
 
 /* #endregion */

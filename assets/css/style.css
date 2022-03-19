@@ -104,12 +104,12 @@ img{
 
 
 h1, h2{
-    font-size:47px;
+    font-size:44px;
 }
 
 
 h5{
-    font-size:18px;
+    font-size:15px;
     color:var(--txt-quaternary);
 }
 
@@ -143,6 +143,10 @@ section .btn{
     color:var(--txt_primary);
 }
 
+
+.col [class^="card"] img{
+    border-radius: 25px;
+}
 
 
 /* #endregion */
@@ -244,9 +248,8 @@ ul .circle {
 
 }
 
+/* possibility*/
 
-
-/* explore */
 
 
 

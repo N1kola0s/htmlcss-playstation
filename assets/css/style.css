@@ -300,6 +300,17 @@ section.news,
     background-color: var(--bg_secondary);
 }
 
+/* service */
+
+
+.service.play_plus{
+    background-color: var(--bg_tertiary);
+}
+
+.service .service_content{
+    width:90%;
+    line-height: 1.75rem;
+}
 
 /* #endregion */
 

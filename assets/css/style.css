@@ -312,6 +312,11 @@ section.news,
     line-height: 1.75rem;
 }
 
+
+.service.play_now {
+    background-color: var(--bg_quaternary);
+}
+
 /* #endregion */
 
 /* #region FOOTER */

@@ -3,6 +3,7 @@
 *{
  font-family: Arial, Helvetica, sans-serif;
  letter-spacing: 0.1px;
+ 
 }
 
 :root {
@@ -104,7 +105,7 @@ img{
 
 
 h1, h2{
-    font-size:44px;
+    font-size:40px;
 }
 
 
@@ -252,7 +253,7 @@ ul .circle {
 
 /* hero */
 .hero .game_content{
-    width:29%;
+    width:28%;
     line-height: 1.75rem;
 }
 
@@ -277,6 +278,24 @@ ul .circle {
     aspect-ratio:1;
 
 }
+
+/* adventure game */
+
+.adventure .game_content{
+    width:28%;
+    line-height: 1.75rem;
+    
+}
+
+.adventure.game {
+    background-image: url("/assets/img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position : top center;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: color;
+}
+
+
 
 
 /* #endregion */

@@ -194,6 +194,11 @@ section .btn{
     padding: 2.35rem 0;
 }
 
+
+.py_5{
+    padding:5.5rem 0;
+}
+
 /* #endregion */
 
 /* #region HEADER */
@@ -317,6 +322,13 @@ section.news,
     background-color: var(--bg_quaternary);
 }
 
+/* social media */
+
+
+.social_logo{
+    width: 100%;
+    aspect-ratio: 1;
+}
 /* #endregion */
 
 /* #region FOOTER */

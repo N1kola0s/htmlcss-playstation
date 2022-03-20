@@ -109,6 +109,10 @@ h1, h2{
 }
 
 
+h3{
+    font-size:30px;
+}
+
 h5{
     font-size:15px;
     color:var(--txt-quaternary);
@@ -116,7 +120,7 @@ h5{
 
 
 .subtitle{
-    font-size:23px;
+    font-size:22px;
     color:var(--txt_tertiary);
 
 }
@@ -152,7 +156,8 @@ section .btn{
     color:var(--txt_primary);
 }
 
-.possibility .card img{
+.possibility .card img,
+.news .card img{
     border-radius: 25px;
 }
 
@@ -188,9 +193,6 @@ section .btn{
 .py_2{
     padding: 2.35rem 0;
 }
-
-
-
 
 /* #endregion */
 
@@ -269,14 +271,8 @@ ul .circle {
 
 /* hardware*/
 
-
-.device_text.subtitle{
-    font-size:18px;
-}
-
-.selector .card img{
+img.card-img-top{
     aspect-ratio:1;
-
 }
 
 /* adventure game */
@@ -296,6 +292,13 @@ ul .circle {
 }
 
 
+/* news */
+
+
+section.news,
+.news .card{
+    background-color: var(--bg_secondary);
+}
 
 
 /* #endregion */

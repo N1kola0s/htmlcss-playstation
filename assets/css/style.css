@@ -463,6 +463,11 @@ footer {
         width:29%;
     }
 
+    
+    .service_content .service_text{
+
+        padding:2rem 0;
+    }
    
     .social_media_bottom .row{
         width: 60%;

@@ -332,4 +332,24 @@ section.news,
 /* #endregion */
 
 /* #region FOOTER */
+
+
+footer {
+    background-color: var(--bg_quinary);
+    font-size: 14px;
+    color: var(--txt_secondary);
+}
+
+.footer_bottom .sie_logo{
+    width: 110px;
+    /* padding: 0px 10px; */
+}
+
+.footer_bottom p{
+    font-size: 12px;
+    width: 41.5%;
+    /* padding: 0px 10px; */
+
+}
+
 /* #endregion */

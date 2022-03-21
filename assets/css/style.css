@@ -176,10 +176,7 @@ img{
 }
 
 
-.selector .card-img-top{
-    aspect-ratio: 1 / 0.5;
-    object-fit: contain;
-}
+
 
 
 /* #endregion */
@@ -324,12 +321,15 @@ ul .circle {
     padding: 1rem 0;
 }
 
+.selector .card-img-top{
+    aspect-ratio: 1 / 0.5;
+    object-fit: contain;
+}
+
 .selector .card-body h6{
     display:none;
 
 }
-
-
 
 .selector .card{
     height: 100%;
@@ -337,21 +337,19 @@ ul .circle {
     opacity:0.5;
 }
 
-
 .selector .card.active{
     opacity:1;
+    box-shadow: 0 2px 0 0 var(--bg_quinary);
 
 }
 
 .selector .card:hover{
     opacity:1 !important;
-    box-shadow: 0 1px 0 0 var(--bg_quinary);
+    box-shadow: 0 2px 0 0 var(--bg_quinary);
 
 }
 
 /* adventure game */
-
-
 
 .adventure.game {
     background-image: url("/assets/img/it-takes-two-hero-banner-desktop.jpg");

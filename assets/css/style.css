@@ -104,32 +104,31 @@ img{
 }
 
 
-h1, h2{
+/* h1, h2{
     font-size:40px;
-}
+} */
 
 
-h3{
+/* h3{
     font-size:30px;
-}
+} */
 
-h5{
-    font-size:15px;
+.possibility_bottom h6{
+    /* font-size:15px; */
     color:var(--txt-quaternary);
 }
 
 
 .subtitle{
-    font-size:22px;
+    /* font-size:22px; */
     color:var(--txt_tertiary);
-
 }
 
 
-section .btn{
+/* section .btn{
     font-size:18px;
 
-}
+} */
 
 .btn_primary{
     background-color: var(--buttons_primary);
@@ -336,7 +335,7 @@ section.news,
 
 footer {
     background-color: var(--bg_quinary);
-    font-size: 14px;
+   /*  font-size: 14px; */
     color: var(--txt_secondary);
 }
 

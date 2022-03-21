@@ -103,32 +103,15 @@ img{
     height: 100%;
 }
 
-
-/* h1, h2{
-    font-size:40px;
-} */
-
-
-/* h3{
-    font-size:30px;
-} */
-
 .possibility_bottom h6{
-    /* font-size:15px; */
     color:var(--txt-quaternary);
 }
 
 
 .subtitle{
-    /* font-size:22px; */
     color:var(--txt_tertiary);
 }
 
-
-/* section .btn{
-    font-size:18px;
-
-} */
 
 .btn_primary{
     background-color: var(--buttons_primary);
@@ -155,9 +138,8 @@ img{
     color:var(--txt_primary);
 }
 
-.possibility .card img,
-.news .card img{
-    border-radius: 25px;
+img.card-img-top{
+    aspect-ratio:1;
 }
 
 
@@ -258,10 +240,6 @@ ul .circle {
 /* #region MAIN */
 
 /* hero */
-.hero .game_content{
-    width:28%;
-    line-height: 1.75rem;
-}
 
 .hero.game {
     background-image: url("../img/jumbo-bg.png");
@@ -273,19 +251,27 @@ ul .circle {
 
 }
 
-/* hardware*/
+/* possibility */
 
-img.card-img-top{
-    aspect-ratio:1;
+.possibility .card img,
+.news .card img{
+    border-radius: 20px;
+}
+
+/* hardware */
+
+.card-body{
+    padding: 1rem 0;
+}
+
+.selector .card-body h6{
+    display:none;
+
 }
 
 /* adventure game */
 
-.adventure .game_content{
-    width:28%;
-    line-height: 1.75rem;
-    
-}
+
 
 .adventure.game {
     background-image: url("/assets/img/it-takes-two-hero-banner-desktop.jpg");
@@ -307,13 +293,12 @@ section.news,
 /* service */
 
 
-.service.play_plus{
-    background-color: var(--bg_tertiary);
+.service_image{
+    display:none;
 }
 
-.service .service_content{
-    width:90%;
-    line-height: 1.75rem;
+.service.play_plus{
+    background-color: var(--bg_tertiary);
 }
 
 
@@ -335,20 +320,82 @@ section.news,
 
 footer {
     background-color: var(--bg_quinary);
-   /*  font-size: 14px; */
     color: var(--txt_secondary);
 }
 
 .footer_bottom .sie_logo{
     width: 110px;
-    /* padding: 0px 10px; */
 }
 
 .footer_bottom p{
     font-size: 12px;
-    width: 41.5%;
-    /* padding: 0px 10px; */
+    width:85%
 
 }
+
+/* #endregion */
+
+/*#region media query */
+
+
+
+@media screen and (min-width:576px){
+
+    .game_content{
+        width: 95%;
+    }
+
+}
+
+@media screen and (min-width:768px){
+    
+    /* hardware */
+
+    
+    h6{
+        font-size: 0.9375rem;
+    }
+
+    .selector .card-body h6{
+        display:block;
+    
+    }
+
+    .service_image{
+        display:block;
+    }
+
+    .service .service_content{
+        font-size: 15px;
+    }
+
+
+    .social_media_bottom .row{
+        width: 90%;
+    }
+   
+}
+
+
+@media screen and (min-width:992px){
+
+    
+    .game_content{
+        width:32%;
+    }
+
+    
+    .social_media_bottom .row{
+        width: 60%;
+    }
+
+ 
+    .footer_bottom p{
+        width: 41.5%;
+    }
+
+}
+
+
 
 /* #endregion */

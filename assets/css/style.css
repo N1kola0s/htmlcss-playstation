@@ -253,6 +253,13 @@ ul .circle {
 
 /* possibility */
 
+
+.possibility .card{
+    border-radius:1.5rem;
+
+}
+
+
 .possibility .card img,
 .news .card img{
     border-radius: 20px;
